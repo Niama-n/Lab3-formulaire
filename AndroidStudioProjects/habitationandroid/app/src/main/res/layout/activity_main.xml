@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titre"
+        android:textColor="@color/accent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.15"
+        android:layout_marginBottom="40dp" />
+
+    <EditText
+        android:id="@+id/input_surface"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:hint="@string/hint_surface"
+        android:inputType="numberDecimal"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/text_hint"
+        android:backgroundTint="@color/surface"
+        android:padding="12dp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/input_pieces"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:hint="@string/hint_pieces"
+        android:inputType="number"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/text_hint"
+        android:backgroundTint="@color/surface"
+        android:padding="12dp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="no" />
+
+    <CheckBox
+        android:id="@+id/checkbox_piscine"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="@string/label_piscine"
+        android:textColor="@color/text_secondary"
+        android:buttonTint="@color/accent"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/button_calcul"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:text="@string/btn_calculer"
+        android:backgroundTint="@color/accent"
+        android:textColor="@color/button_text"
+        android:textStyle="bold"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_default"
+        android:textColor="@color/accent"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">habitationandroid</string>
+    <string name="titre">TAXE d\'Habitation</string>
+    <string name="hint_surface">Surface en m²</string>
+    <string name="hint_pieces">Nombre de pièces</string>
+    <string name="label_piscine">Piscine</string>
+    <string name="btn_calculer">Calculer</string>
+    <string name="result_default">—</string>
+</resources>
