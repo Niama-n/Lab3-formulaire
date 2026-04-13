@@ -2,6 +2,15 @@
 
 > **LAB 3 — Programmation Mobile : Android avec Java** 
 > Formulaire et navigation entre activités
+---
+ Vidéo de démonstration
+Vous pouvez visualiser le test de l'application ici :
+---
+
+https://github.com/user-attachments/assets/3c639be9-9ad8-4b3a-a7a7-07c8b6236c9c
+
+
+
 
 ---
 ## Structure du projet
