@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">formulaire</string>
+    <string name="titre_formulaire">Formulaire</string>
+    <string name="label_nom">Nom complet</string>
+    <string name="hint_nom">Ex : NAFTAOUI NIAMA</string>
+    <string name="label_email">Adresse e-mail</string>
+    <string name="hint_email">Ex : n.naftaoui5998@uca.ac.ma</string>
+    <string name="label_tel">Numéro de téléphone</string>ng>
+    <string name="hint_tel">Ex : +212600000000</string>
+    <string name="label_adresse">Adresse postale</string>
+    <string name="hint_adresse">Ex : Abwab gueliz</string>
+    <string name="label_ville">Ville</string>
+    <string name="hint_ville">Ex : Marrakech</string>
+    <string name="btn_soumettre">Soumettre</string>
+    <string name="titre_recap">Récapitulatif</string>
+    <string name="btn_retour">Retour</string>
+</resources>

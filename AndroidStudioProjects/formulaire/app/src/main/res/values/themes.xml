@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Appform" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#4C3BCF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#F8F7FF</item>
+    </style>
+</resources>

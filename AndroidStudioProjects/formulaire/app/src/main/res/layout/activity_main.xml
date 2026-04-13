@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F8F7FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titre_formulaire"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#2D2B55"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_nom"
+            android:textColor="#4C3BCF"/>
+
+        <EditText
+            android:id="@+id/inputNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_nom"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_email"
+            android:textColor="#4C3BCF"/>
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_tel"
+            android:textColor="#4C3BCF"/>
+
+        <EditText
+            android:id="@+id/inputTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_tel"
+            android:inputType="phone"
+            android:autofillHints="phoneNumber"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_adresse"
+            android:textColor="#4C3BCF"/>
+
+        <EditText
+            android:id="@+id/inputAdresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_adresse"
+            android:inputType="textPostalAddress"
+            android:autofillHints="postalAddress"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_ville"
+            android:textColor="#4C3BCF"/>
+
+        <EditText
+            android:id="@+id/inputVille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_ville"
+            android:inputType="textCapWords"
+            android:autofillHints="addressLocality"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnSoumettre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_soumettre"
+            android:backgroundTint="#4C3BCF"/>
+
+    </LinearLayout>
+</ScrollView>
